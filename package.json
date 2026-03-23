@@ -1,0 +1,23 @@
+{
+  "name": "tuto_01",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": " npx tailwindcss -i assets/input.css -o public/css/style.css --watch",
+    "serve": "browser-sync start --proxy localhost/tuto_01/public --files public/css/*.css, **/*.php"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "tailwindcss": "^3.4.19"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.27",
+    "browser-sync": "^3.0.4",
+    "browser-sync-webpack-plugin": "^2.4.0",
+    "daisyui": "^4.12.24"
+  }
+}
