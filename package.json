@@ -15,9 +15,11 @@
     "tailwindcss": "^3.4.19"
   },
   "devDependencies": {
+    "@prettier/plugin-php": "^0.25.0",
     "autoprefixer": "^10.4.27",
     "browser-sync": "^3.0.4",
     "browser-sync-webpack-plugin": "^2.4.0",
-    "daisyui": "^4.12.24"
+    "daisyui": "^4.12.24",
+    "prettier": "^3.8.1"
   }
 }
